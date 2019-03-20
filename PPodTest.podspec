@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PPodTest"
-  s.version      = "0.0.1"
+  s.version      = "1.0.1"
   s.summary      = "一句话总结"
 
 
@@ -40,15 +40,13 @@ Pod::Spec.new do |s|
    s.ios.deployment_target = "9.0"
 
 
-  s.source       = { :git => "https://github.com/shanlilaide/PPodTest.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/shanlilaide/PPodTest.git", :tag => "1.0.1" }
 
 
 
 
-  s.source_files  = "PPodTest", "PPodTest/**/*.*"
-  s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
+  s.source_files  = 'PPodTest/PPodTest/PPodTest/*.{h,m}'
+  
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
