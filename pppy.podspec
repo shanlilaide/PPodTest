@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   #
 
 # 名称、版本号、介绍
-  spec.name         = "PPPPY"
+  spec.name         = "PPPY"
   spec.version      = "1.0.3"
   spec.summary      = "测试创建iOS组件库"
 
