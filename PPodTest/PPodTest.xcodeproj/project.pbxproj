@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D47F10F24921CB500E6C49B /* ExPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F10E24921CB500E6C49B /* ExPushView.m */; };
 		3DA640D3224226D100468B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA640D2224226D100468B09 /* AppDelegate.m */; };
 		3DA640D6224226D100468B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA640D5224226D100468B09 /* ViewController.m */; };
 		3DA640D9224226D100468B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA640D7224226D100468B09 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D47F10D24921CB500E6C49B /* ExPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExPushView.h; sourceTree = "<group>"; };
+		3D47F10E24921CB500E6C49B /* ExPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExPushView.m; sourceTree = "<group>"; };
 		3DA640CE224226D100468B09 /* PPodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA640D1224226D100468B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DA640D2224226D100468B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +42,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D47F10C24921CB500E6C49B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D47F10D24921CB500E6C49B /* ExPushView.h */,
+				3D47F10E24921CB500E6C49B /* ExPushView.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
 		3DA640C5224226D100468B09 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		3DA640D0224226D100468B09 /* PPodTest */ = {
 			isa = PBXGroup;
 			children = (
+				3D47F10C24921CB500E6C49B /* Classes */,
 				3DA640D1224226D100468B09 /* AppDelegate.h */,
 				3DA640D2224226D100468B09 /* AppDelegate.m */,
 				3DA640D4224226D100468B09 /* ViewController.h */,
@@ -144,6 +158,7 @@
 				3DA640D6224226D100468B09 /* ViewController.m in Sources */,
 				3DA640E1224226D300468B09 /* main.m in Sources */,
 				3DA640D3224226D100468B09 /* AppDelegate.m in Sources */,
+				3D47F10F24921CB500E6C49B /* ExPushView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
