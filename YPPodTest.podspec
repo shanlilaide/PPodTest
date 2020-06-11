@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
   #
 
 # 名称、版本号、介绍
-  spec.name         = "YPPodTest"
-  spec.version      = "0.0.1"
+  spec.name         = "PPPPY"
+  spec.version      = "1.0.3"
   spec.summary      = "测试创建iOS组件库"
 
   spec.description  = <<-DESC
@@ -31,12 +31,13 @@ Pod::Spec.new do |spec|
   spec.author             = { "codep" => "yu_p@foxmail.com" }
   # Or just: spec.author    = "codep"
   # spec.authors            = { "codep" => "yu_p@foxmail.com" }
-  # spec.social_media_url   = "https://chaosw.com"
+  
+  spec.social_media_url   = "https://www.chaosw.com"
 
 
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "9.0"
+  #spec.platform     = :ios
+  spec.platform     = :ios, "9.0"
 
 
 # 开源库github地址，必须以.git结尾
